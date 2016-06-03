@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App Sandbox</string>
+    <string name="permission_denied_read_external_storage">In order to read apk files from external storage, you must grant READ_EXTERNAL_STORAGE permission.</string>
+    <string name="failed_to_read_apk">Cannot open that apk.</string>
+    <string name="invalid_sdk" formatted="false">That apk requires android SDK %d, your device is %d</string>
+    <string name="launcher_activity_not_found">Launcher activity not found.</string>
 </resources>

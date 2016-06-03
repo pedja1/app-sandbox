@@ -5,9 +5,9 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "rs.pedjaapps.appsandbox"
+        applicationId "rs.pedjaapps.appsandboxtestapp"
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
@@ -22,10 +22,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.jaredrummler:apk-parser:1.0.1'
-    compile 'com.af.jutils:android:2.0.0'
-    compile 'org.greenrobot:greendao:2.2.0'
-    compile 'org.greenrobot:eventbus:3.0.0'
-    compile "com.pedja1:volleyplus:1.0.0"
-    compile "com.androidforever:data-loader-android:2.0.0"
+    compile 'com.android.support:appcompat-v7:23.4.0'
 }

@@ -1,4 +1,4 @@
-package rs.pedjaapps.appsandbox;
+package rs.pedjaapps.appsandboxtestapp;
 
 import android.app.Activity;
 import android.os.Bundle;
